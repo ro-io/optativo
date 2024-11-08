@@ -1,6 +1,7 @@
 import React from 'react'
 import Encabezado from './Encabezado';
 import Bsboton from './Bsboton';
+import "./Card.css"
 
 const Card = ({lugares,concepto,pago}) => {
   return (

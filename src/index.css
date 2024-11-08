@@ -1,15 +1,22 @@
 :root {
   font-family: 'Readex Pro';  
+  --rojo: rgba(184, 35, 35, 1);
 }
 
-.rojo{
-  background-color: red;
+*{
+  margin: 0;
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.verde{
-  background-color: green;
+body{
+   background-color: rgba(236, 234, 234, 0.836);
 }
 
-.cafe{
-  background-color: brown;
+.milk{
+  border-bottom: 3px solid red;
+  border-radius: 4px;
+  
 }
+

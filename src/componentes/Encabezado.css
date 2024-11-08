@@ -1,0 +1,15 @@
+.descripciones{
+    color: #000000a6;
+    font-size: 13px;
+}
+
+.encabezado{
+    display: flex;
+    margin: -13px;
+}
+
+.imagen {
+    position: relative;
+    left: 21px;
+}
+

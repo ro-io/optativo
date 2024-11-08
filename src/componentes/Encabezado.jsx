@@ -1,12 +1,20 @@
 import React from "react";
+import logo from "../assets/Ellipse.svg";
+import logo2 from "../assets/rectangulo.svg";
+import "./Encabezado.css";
 
-const Encabezado = ({lugar, concepto}) => {
+const Encabezado = ({ lugar, def }) => {
   return (
     <div>
-      <img src="" alt="" />
-      <span>Crunchy Butterscoth{lugar}</span>
+      <div className="encabezado">
+        <img className="imagen" src={logo} alt="" />
+        <img src={logo2} alt="" />
+        <div className="tipo">
+          <span> {lugar}</span>
+        </div>
+      </div>
       <p>
-      <span>Butterscoth & Cashews{concepto}</span>
+        <span className="descripciones">{def}</span>
       </p>
     </div>
   );

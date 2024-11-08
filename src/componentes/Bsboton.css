@@ -1,0 +1,15 @@
+.rojo{    
+  background-color: var(--rojo);        
+  color: white;
+  padding: 6px 13px;
+  border: white;
+}
+.pagado{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.din{
+    display: flex;
+    align-content: flex-start;
+}

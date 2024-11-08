@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="cartatotal">
-        <p>Milk Shakes</p>
+        <p className="milk">Milk Shakes</p>
         {lugar.map((estado,index) => (
           <Card lugares={estado} concepto={descripcion[index]} pago={plata[index]}/>
         ))}
